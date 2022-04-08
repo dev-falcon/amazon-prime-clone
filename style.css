@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(210, 214, 214); */
+}
+
+body{
+    background-color:#232F3E!important;
+}
+
+
+
+
+ .carousel .carousel-item {
+    height: 60vh;
+    margin: 1vh 1vw;
+    width: 98%;
+    /* margin; */
+  } 
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+  .heading{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      /* margin-bottom: 1rem; */
+  }
+  .heading p{
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+
+  }
+
+
+  .prime{
+      color: rgb(7, 126, 223);
+  }
+  
+
+  .vid-row img{
+      width: 16rem;
+      margin: 1rem;
+      cursor: pointer;
+  }
+
+  .vid-row{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+ 
+.video-player{
+    width: 70%;
+    /* position: absolute; */
+    position: sticky;
+    left: 16%;
+    bottom: 10%;
+    /* text-align: center; */
+    /* top: -110rem;  */
+    /* overflow: scroll; */
+    /* transform: translate y(18%);  */
+    display:none;
+}
+
+.video-player video{
+    width: 100%;
+}
+
+/* .play-btn{
+    width: -5rem !important;
+    height: 5rem;
+    position: absolute;
+    /* top: 50%; */
+    /* right: 50%; */
+    /* width: 3rem; */
+    /* cursor: pointer; */
+/* }  */
+
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
+    width: 3rem;
+    cursor: pointer;
+}

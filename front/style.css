@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+/*       Navbar          */
+
+.navbar {
+    background-color: rgba(22, 31, 53, 0.97);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar a {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 8rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+#gl {
+    font-size: 2rem;
+    /* margin-top: 14px; */
+    margin-left: 70vw;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.dropdown-content {
+    display: none;
+    /* position: relative; */
+    background-color: rgba(22, 31, 53, 0.97);
+    height: 20vh;
+    padding-left: 0.5rem;
+}
+
+.drop-btn {
+    /* font: 1rem; */
+    outline: none;
+    color: rgb(14, 0, 0);
+    padding: 2px;
+    padding-bottom: 0;
+    margin-left: 1rem;
+}
+
+.signup {
+    color: rgba(255, 255, 255, 0.678);
+    margin-left: 2rem;
+    font-size: 1.3rem !important;
+    font: inherit;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.first-image {
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.text {
+    color: white;
+    padding: 14vh 3vw 3vh 2vw;
+}
+
+.text p {
+    font-size: 1.9vmax;
+    color: rgba(255, 255, 255, 0.856);
+    /* word-break: break-all; */
+}
+
+.text h2 {
+    font-size: 2.6vmax;
+    margin-bottom: 2rem;
+}
+
+.cont-1-btn {
+    background-color: rgb(7, 126, 223);
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 2vh 3vw 2vh 2vw;
+    border: 1px solid rgb(7, 126, 223);
+}
+
+.text-btn {
+    font-size: 1rem !important;
+    margin: 0 3vw 2vh 7vw;
+    /* padding-left: 2vw; */
+    color: rgba(255, 255, 255, 0.425);
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/remote.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.text-2 {
+    color: white;
+    margin: 7vh 2vw 5vh 50vw;
+    padding: 12vh 2vw 10vh 1vw;
+}
+
+.text-2 h2 {
+    font-size: 2.6vmax;
+    margin-bottom: 2rem;
+}
+
+.text-2 p {
+    font-size: 1.9vmax;
+    color: rgba(255, 255, 255, 0.865);
+}
+
+.cont-2btn {
+    background-color: rgb(7, 126, 223);
+    width: 25rem;
+    height: 3rem;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.883);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(7, 126, 223);
+}
+
+
+/*      third      */
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/sitting.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.text-3 {
+    color: white;
+    /* margin-left: 50%;
+ padding-bottom: 7rem;
+     padding-top: 10rem; */
+    /* overflow-wrap: normal; */
+    /* text-align: ; */
+    margin: 10vh 50vw 5vh 1vw;
+    padding: 10vh 1vw 10vh 1vw;
+}
+
+.text-3 h2 {
+    font-size: 2.6vmax;
+    margin-bottom: 2rem;
+}
+
+.text-3 p {
+    font-size: 1.9vmax;
+    /* font-weight: lighter; */
+    word-wrap: break-word;
+    color: rgba(255, 255, 255, 0.865);
+}
+
+.cont-3btn {
+    background-color: rgb(7, 126, 223);
+    width: 25rem;
+    height: 3rem;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.883);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(7, 126, 223);
+}
+
+
+/*      4th portion    */
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/last.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.text-4 {
+    color: white;
+    margin: 10vh 50vw 5vh 1vw;
+    padding: 10vh 1vw 10vh 1vw;
+}
+
+.text-4 h2 {
+    font-size: 2.6vmax;
+    margin-bottom: 2rem;
+}
+
+.text-4 p {
+    font-size: 1.9vmax;
+    word-wrap: break-word;
+    color: rgba(255, 255, 255, 0.865);
+}
+
+.cont-4btn {
+    background-color: rgb(7, 126, 223);
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.883);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(7, 126, 223);
+}
+
+
+/*       Footer        */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
